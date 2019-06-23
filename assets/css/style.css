@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+#header {
+    margin: 1%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    background-color: black;
+}
+
+#small {
+    text-emphasis: none;
+    font-size: 70%;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+#title {
+    background-color: black;
+    opacity: 0.55;
+    margin-top: 5%;
+    position: absolute;
+    color: white;
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: 200px;
+    
+}
+
+#word {
+    margin: 1% 1% 0 1%;
+    padding: 2%;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+    background-color: #4b4848;
+    
+}
+
+#counter {
+    height: 18%;
+    width: 100%;
+    margin: 0.5% 1.5%;
+    position: fixed;
+}
+
+.count {
+    background-color: #4b4848;
+    color: whitesmoke;
+    float: left;
+    margin: 0 1%;
+    height: 100%;
+    width: 22%;
+    padding: 1%;
+    font-size: 100%;
+}
+

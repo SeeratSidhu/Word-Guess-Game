@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Word Guess Game</title>
-    
+
+
 </head>
+
 <body>
     <script src="assets/javascript/game.js"></script>
 
-    <p>Who is this? <br><span id = "blanks"></span></p>
+
+    <div id="header">
+        <div id="title">Name the bad guy! </div>
+        <img src="https://vignette.wikia.nocookie.net/my-disney-villains/images/0/0e/Community-header-background/revision/latest?cb=20190105215804"
+            alt="villains">
+    </div>
+    <div id="word">Who am I? <br><span id="blanks"></span>
+        <br><br>
+        <small id="small">Press any key to start identifying popular villains</small>
+    </div>
     <br><br>
-    <p>You Guessed: <br> <span id="guesses"></span></p>
-    
-        
+    <div id="counter">
+
+        <div class="count">
+            <p>Wrong Guesses: <br> <span id="guesses"></span></p>
+        </div>
+        <div class="count">
+            <p>Wins: <br><span id="winCount"></span></p>
+        </div>
+        <div class="count">
+            <p>Losses: <br> <span id="lossCount"></span></p>
+        </div>
+        <div class="count">
+            <p>Remaining guesses: <br><span id="guessCount"></span></p>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
